@@ -5,6 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=22&duration=2200&pause=900&center=true&vCenter=true&width=900&color=E5EDF8&lines=Map+Snapshot;Export+KMZ;Geo+Report;Google+Maps+Link;Ain+Alabid+Offset;Ain+Alabid+Reverse" alt="GeoPilot animated subtitle" />
 
 <p><strong>أداة احترافية داخل ArcGIS Pro للمشاركة السريعة، تصدير KMZ، الروابط الذكية، والتقارير الجغرافية في تجربة أخف وأسرع.</strong></p>
+<p><strong>A professional ArcGIS Pro toolkit for fast sharing, KMZ export, smart links, and streamlined geographic reporting.</strong></p>
 
 [![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.4%2B-2563eb?style=for-the-badge)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
 [![Version](https://img.shields.io/badge/Version-v1.0.46-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.46)
