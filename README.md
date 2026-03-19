@@ -1,11 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:2563eb,100:f59e0b&text=GeoPilot&fontColor=ffffff&fontSize=54&fontAlign=50&fontAlignY=38&desc=ArcGIS%20Pro%20Installer&descAlign=50&descAlignY=58&animation=fadeIn" alt="GeoPilot banner" />
-
-<p>
-  <strong>Installer-first distribution for a polished ArcGIS Pro toolkit.</strong><br/>
-  مشاركة مكانية أسرع، تصدير KMZ، تقارير جغرافية، روابط ذكية، وأدوات GIS يومية في حزمة واحدة.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f172a,35:0f766e,70:2563eb,100:f59e0b&text=GeoPilot&fontColor=ffffff&fontSize=56&fontAlign=50&fontAlignY=42&animation=fadeIn" alt="GeoPilot banner" />
 
 [![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.4%2B-1f6feb?style=for-the-badge)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
 [![Windows](https://img.shields.io/badge/Windows-Required-0f766e?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
