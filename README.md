@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:07111f,30:0f766e,65:2563eb,100:f59e0b&text=GeoPilot&fontColor=ffffff&fontSize=58&fontAlign=50&fontAlignY=42&animation=fadeIn" alt="GeoPilot banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=22&duration=2800&pause=900&center=true&vCenter=true&width=900&color=E5EDF8&lines=Fast+Spatial+Sharing;KMZ+Export+%26+Smart+Map+Workflows;Built+for+Daily+GIS+Work" alt="GeoPilot animated subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=22&duration=3200&pause=1400&center=true&vCenter=true&width=900&color=E5EDF8&lines=Spatial+Sharing%2C+KMZ+Export%2C+Reports+%26+Smart+GIS+Tools" alt="GeoPilot animated subtitle" />
 
 <p><strong>أداة احترافية داخل ArcGIS Pro للمشاركة السريعة، تصدير KMZ، الروابط الذكية، والتقارير الجغرافية في تجربة أخف وأسرع.</strong></p>
 
