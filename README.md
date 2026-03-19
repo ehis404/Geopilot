@@ -7,7 +7,6 @@
 <p><strong>أداة احترافية داخل ArcGIS Pro للمشاركة السريعة، تصدير KMZ، الروابط الذكية، والتقارير الجغرافية في تجربة أخف وأسرع.</strong></p>
 
 [![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.4%2B-2563eb?style=for-the-badge)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
-[![Windows](https://img.shields.io/badge/Windows-Required-0f766e?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
 [![Version](https://img.shields.io/badge/Version-v1.0.45-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
 
 [![Download GeoPilot](https://img.shields.io/badge/Download-GeoPilot-111827?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX)
@@ -84,7 +83,6 @@
 | Product | `GeoPilot` |
 | Version | `v1.0.45` |
 | Package | `ArcGIS Pro Add-In` |
-| Platform | `Windows` |
 | Target | `ArcGIS Pro 3.4+` |
 
 <details>
