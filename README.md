@@ -7,10 +7,10 @@
 <p><strong>أداة احترافية داخل ArcGIS Pro للمشاركة السريعة، تصدير KMZ، الروابط الذكية، والتقارير الجغرافية في تجربة أخف وأسرع.</strong></p>
 
 [![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.4%2B-2563eb?style=for-the-badge)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
-[![Version](https://img.shields.io/badge/Version-v1.0.45-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
+[![Version](https://img.shields.io/badge/Version-v1.0.46-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.46)
 
-[![Download GeoPilot](https://img.shields.io/badge/Download-GeoPilot-111827?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX)
-[![Open Release](https://img.shields.io/badge/Open-Release%20Page-1d4ed8?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
+[![Download GeoPilot](https://img.shields.io/badge/Download-GeoPilot-111827?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.46/GeoPilot-v1.0.46.esriAddinX)
+[![Open Release](https://img.shields.io/badge/Open-Release%20Page-1d4ed8?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.46)
 
 </div>
 
@@ -53,8 +53,8 @@
 
 | Package | Access |
 |---|---|
-| GeoPilot | [GeoPilot-v1.0.45.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX) |
-| Release Page | [View Release v1.0.45](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45) |
+| GeoPilot | [GeoPilot-v1.0.46.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.46/GeoPilot-v1.0.46.esriAddinX) |
+| Release Page | [View Release v1.0.46](https://github.com/ehis404/Geopilot/releases/tag/v1.0.46) |
 
 </div>
 
@@ -71,7 +71,7 @@
 ## Installation
 
 1. Close `ArcGIS Pro`
-2. Download [GeoPilot-v1.0.45.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX)
+2. Download [GeoPilot-v1.0.46.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.46/GeoPilot-v1.0.46.esriAddinX)
 3. Double-click the installer file
 4. Confirm the add-in installation
 5. Open `ArcGIS Pro` again
@@ -81,7 +81,7 @@
 | Item | Value |
 |---|---|
 | Product | `GeoPilot` |
-| Version | `v1.0.45` |
+| Version | `v1.0.46` |
 | Package | `ArcGIS Pro Add-In` |
 | Target | `ArcGIS Pro 3.4+` |
 
