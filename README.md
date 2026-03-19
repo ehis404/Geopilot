@@ -66,7 +66,7 @@
 | Sharing | `Map Snapshot`, `Export KMZ`, `Geo Report` |
 | Conversion | `KMZ → Feature Class` |
 | Smart Links | `Google Maps Link` |
-| Utilities | `Ain Alabid Offset`, `Ain Alabid Reverse` |
+| Projection | `Ain Alabid Offset`, `Ain Alabid Reverse` |
 | Mapping | `Custom Basemap Gallery` |
 
 ## Installation
