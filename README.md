@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:07111f,30:0f766e,65:2563eb,100:f59e0b&text=GeoPilot&fontColor=ffffff&fontSize=58&fontAlign=50&fontAlignY=42&animation=fadeIn" alt="GeoPilot banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=22&duration=2800&pause=900&center=true&vCenter=true&width=900&color=E5EDF8&lines=Fast+Spatial+Sharing;KMZ+Export+%26+Smart+Map+Workflows;ArcGIS+Pro+Installer+Ready" alt="GeoPilot animated subtitle" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=22&duration=2800&pause=900&center=true&vCenter=true&width=900&color=E5EDF8&lines=Fast+Spatial+Sharing;KMZ+Export+%26+Smart+Map+Workflows;Built+for+Daily+GIS+Work" alt="GeoPilot animated subtitle" />
 
 <p><strong>أداة احترافية داخل ArcGIS Pro للمشاركة السريعة، تصدير KMZ، الروابط الذكية، والتقارير الجغرافية في تجربة أخف وأسرع.</strong></p>
 
@@ -10,7 +10,7 @@
 [![Windows](https://img.shields.io/badge/Windows-Required-0f766e?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
 [![Version](https://img.shields.io/badge/Version-v1.0.45-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
 
-[![Download Installer](https://img.shields.io/badge/Download-Installer-111827?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX)
+[![Download GeoPilot](https://img.shields.io/badge/Download-GeoPilot-111827?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX)
 [![Open Release](https://img.shields.io/badge/Open-Release%20Page-1d4ed8?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45)
 
 </div>
@@ -19,8 +19,8 @@
 
 ## Why GeoPilot
 
-> `GeoPilot` is published here as an installer-first repository.  
-> The goal is simple: fast download, clean installation, and an immediate understanding of what the tool delivers.
+> `GeoPilot` is presented here as a clean product page for fast access and direct download.  
+> The goal is simple: clear value, fast access, and an immediate understanding of what the tool delivers.
 
 <table>
   <tr>
@@ -30,7 +30,7 @@
     </td>
     <td width="33%" valign="top">
       <h3>Focused Repository</h3>
-      <p>This repository is intentionally lightweight and centered on the installer package instead of source distribution.</p>
+      <p>This repository is intentionally lightweight and centered on release access and direct use instead of source distribution.</p>
     </td>
     <td width="33%" valign="top">
       <h3>Daily GIS Utility</h3>
@@ -45,7 +45,7 @@
 
 | Package | Access |
 |---|---|
-| Installer | [GeoPilot-v1.0.45.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX) |
+| GeoPilot | [GeoPilot-v1.0.45.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.45/GeoPilot-v1.0.45.esriAddinX) |
 | Release Page | [View Release v1.0.45](https://github.com/ehis404/Geopilot/releases/tag/v1.0.45) |
 
 </div>
@@ -98,7 +98,7 @@
 
 - Built for Windows and ArcGIS Pro environments
 - Some basemap-related capabilities depend on third-party services
-- This repository is intentionally installer-focused and does not publish source code
+- This repository is intentionally lightweight and does not publish source code
 
 </details>
 
