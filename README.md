@@ -17,27 +17,36 @@
 
 ---
 
-## Why GeoPilot
+## GeoPilot Components
 
-> `GeoPilot` is presented here as a clean product page for fast access and direct download.  
-> The goal is simple: clear value, fast access, and an immediate understanding of what the tool delivers.
+### Share Group
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Built For Delivery</h3>
-      <p>Designed for users who need outputs quickly without digging through long workflows inside ArcGIS Pro.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Focused Repository</h3>
-      <p>This repository is intentionally lightweight and centered on release access and direct use instead of source distribution.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Daily GIS Utility</h3>
-      <p>It combines sharing, reporting, KMZ export, smart links, and utility operations in one toolkit.</p>
-    </td>
-  </tr>
-</table>
+| Tool | What It Does | Available Channels |
+|---|---|---|
+| `Map Snapshot` | Captures the current map view as an image and prepares it for fast sharing | `Outlook`, `Gmail`, `WhatsApp` |
+| `Export KMZ` | Exports the current selection to a `KMZ` file for spatial sharing and external use | `Outlook`, `Gmail`, `WhatsApp` |
+| `Geo Report` | Generates a location-based report from a clicked point on the map | `WhatsApp`, `Gmail`, `Outlook`, `Copy Only` |
+
+### Tools Group
+
+| Tool | What It Does |
+|---|---|
+| `KMZ → Feature Class` | Converts `KMZ/KML` content into feature classes that can be used directly inside ArcGIS Pro |
+| `Ain Alabid Offset` | Applies the custom XY offset workflow to supported layers |
+| `Ain Alabid Reverse` | Reverses the custom offset workflow and restores the opposite movement |
+
+### Other Group
+
+| Tool | What It Does |
+|---|---|
+| `Google Maps Link` | Creates direct Google Maps URLs from layer geometry and supports different projection handling |
+
+### Integrated Mapping Components
+
+| Component | What It Does |
+|---|---|
+| `Custom Basemap Gallery` | Adds extra basemap entries for quicker visual context and comparison workflows inside ArcGIS Pro |
+| `Info Panel` | Displays product identity and direct communication links for the tool owner |
 
 ## Direct Download
 
@@ -50,30 +59,15 @@
 
 </div>
 
-## Included Workflows
+## Workflow Summary
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Sharing Suite</h3>
-      <p><strong>Map Snapshot</strong>, <strong>Export KMZ</strong>, and <strong>Geo Report</strong> support fast spatial delivery and communication.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Smart Utility Suite</h3>
-      <p><strong>Google Maps Link</strong>, extra basemaps, and custom utility tools are built to speed up practical GIS work.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Conversion</h3>
-      <p><strong>KMZ to Feature Class</strong> helps bring shared spatial files back into ArcGIS Pro workflows.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Offset Operations</h3>
-      <p><strong>Ain Alabid Offset</strong> and <strong>Ain Alabid Reverse</strong> support the custom XY offset workflow directly inside the add-in.</p>
-    </td>
-  </tr>
-</table>
+| Area | Included Items |
+|---|---|
+| Sharing | `Map Snapshot`, `Export KMZ`, `Geo Report` |
+| Conversion | `KMZ → Feature Class` |
+| Smart Links | `Google Maps Link` |
+| Utilities | `Ain Alabid Offset`, `Ain Alabid Reverse` |
+| Mapping | `Custom Basemap Gallery` |
 
 ## Installation
 
