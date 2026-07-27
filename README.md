@@ -10,7 +10,7 @@
 [![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.4%2B-2563eb?style=for-the-badge)](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
 [![Version](https://img.shields.io/badge/Version-v1.0.52-f59e0b?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.52)
 
-[![Install GeoPilot](https://img.shields.io/badge/Install-GeoPilot-0f766e?style=for-the-badge&logo=powershell)](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/Install-GeoPilot.ps1)
+[![Download GeoPilot](https://img.shields.io/badge/Download-GeoPilot-0f766e?style=for-the-badge&logo=github)](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/GeoPilot-v1.0.52.esriAddinX)
 [![Open Release](https://img.shields.io/badge/Open-Release%20Page-1d4ed8?style=for-the-badge)](https://github.com/ehis404/Geopilot/releases/tag/v1.0.52)
 
 </div>
@@ -49,19 +49,16 @@
 | `Custom Basemap Gallery` | Adds extra basemap entries for quicker visual context and comparison workflows inside ArcGIS Pro |
 | `Info Panel` | Displays product identity and direct communication links for the tool owner |
 
-## Install GeoPilot
+## Download GeoPilot
 
 <div align="center">
 
-| Option | Access |
+| Package | Access |
 |---|---|
-| Recommended installer | [Install-GeoPilot.ps1](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/Install-GeoPilot.ps1) |
-| Manual package | [GeoPilot-v1.0.52.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/GeoPilot-v1.0.52.esriAddinX) |
+| GeoPilot | [GeoPilot-v1.0.52.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/GeoPilot-v1.0.52.esriAddinX) |
 | Release Page | [View Release v1.0.52](https://github.com/ehis404/Geopilot/releases/tag/v1.0.52) |
 
 </div>
-
-The recommended installer automatically downloads the latest GeoPilot package, removes previous GeoPilot versions, and launches the new ArcGIS Pro add-in installation.
 
 ## Workflow Summary
 
@@ -75,18 +72,26 @@ The recommended installer automatically downloads the latest GeoPilot package, r
 
 ## Installation
 
-1. Close `ArcGIS Pro`
-2. Download [Install-GeoPilot.ps1](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/Install-GeoPilot.ps1)
-3. Right-click `Install-GeoPilot.ps1` and choose **Run with PowerShell**
-4. The installer automatically downloads the latest package and removes older GeoPilot versions
-5. Confirm the ArcGIS Pro add-in installation
-6. Open `ArcGIS Pro` again
+### Remove A Previous Version
 
-If Windows blocks direct script execution, run:
+If GeoPilot is already installed:
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\Install-GeoPilot.ps1
-```
+1. Open `ArcGIS Pro`
+2. Open the `Project` tab, or click `Settings` from the start page
+3. Select `Add-In Manager`
+4. On the `Add-Ins` tab, select `GeoPilot`
+5. Click `Delete this Add-In` and confirm the deletion
+6. Exit and restart ArcGIS Pro to complete the removal
+7. Close ArcGIS Pro before installing the new version
+
+See the [official ArcGIS Pro add-in management guide](https://pro.arcgis.com/en/pro-app/latest/get-started/manage-add-ins.htm).
+
+### Install The New Version
+
+1. Download [GeoPilot-v1.0.52.esriAddinX](https://github.com/ehis404/Geopilot/releases/download/v1.0.52/GeoPilot-v1.0.52.esriAddinX)
+2. Double-click the downloaded `.esriAddinX` file
+3. Confirm the ArcGIS Pro add-in installation
+4. Open `ArcGIS Pro`
 
 ## Release Snapshot
 
@@ -101,7 +106,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-GeoPilot.ps1
 <summary><strong>Additional Notes</strong></summary>
 
 - Built for Windows and ArcGIS Pro environments
-- The recommended installer downloads the current package and removes older GeoPilot add-ins before installation
+- Remove a previous GeoPilot version through ArcGIS Pro `Add-In Manager` before installing this package
 - Some basemap-related capabilities depend on third-party services
 - This repository is intentionally lightweight and does not publish source code
 
