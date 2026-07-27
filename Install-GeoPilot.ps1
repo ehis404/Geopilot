@@ -5,6 +5,10 @@ param(
 $ErrorActionPreference = "Stop"
 
 $addInId = "{2EAC9C88-7D43-4F74-B7E8-07F51E8B1D13}"
+$legacyAddInIds = @(
+    "{F41F0E06-AEDE-4A95-9392-4C568F925D53}"
+)
+$recognizedAddInIds = @($addInId) + $legacyAddInIds
 $defaultRoot = Join-Path ([Environment]::GetFolderPath("MyDocuments")) "ArcGIS\AddIns\ArcGISPro"
 
 function Get-ConfigDamlXml {
@@ -58,15 +62,25 @@ function Test-IsGeoPilotAddIn {
         return $false
     }
 
-    return ($info.id -eq $addInId)
+    return ($recognizedAddInIds -contains $info.id)
 }
 
 if ([string]::IsNullOrWhiteSpace($PackagePath)) {
-    $PackagePath = Join-Path $PSScriptRoot ((Get-ChildItem -Path $PSScriptRoot -Filter "*.esriAddinX" | Sort-Object LastWriteTime -Descending | Select-Object -First 1).Name)
+    $PackagePath = Get-ChildItem -Path $PSScriptRoot -Filter "*.esriAddinX" -File |
+        Where-Object {
+            $xml = Get-ConfigDamlXml -AddInPath $_.FullName
+            $xml -and $xml.ArcGIS.AddInInfo.id -eq $addInId
+        } |
+        Sort-Object LastWriteTime -Descending |
+        Select-Object -ExpandProperty FullName -First 1
 }
 
-if (-not (Test-Path $PackagePath)) {
+if ([string]::IsNullOrWhiteSpace($PackagePath) -or -not (Test-Path -LiteralPath $PackagePath)) {
     throw "GeoPilot package not found: $PackagePath"
+}
+
+if (-not ((Get-ConfigDamlXml -AddInPath $PackagePath).ArcGIS.AddInInfo.id -eq $addInId)) {
+    throw "The selected package is not the current GeoPilot add-in: $PackagePath"
 }
 
 if (Test-Path $defaultRoot) {
